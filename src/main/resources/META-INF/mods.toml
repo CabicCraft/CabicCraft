@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[33,)"
+license="\u00A74\u00A7lMIT\u00A76 Licence\u00A7r https://pastebin.com/vd2z5B20"
+issueTrackerURL="https://github.com/CabicCraft/CabicCraft/issues"
+
+[[mods]]
+    modId="cabiccraft"
+    version="\u00A710\u00A7r.\u00A791\u00A7r.\u00A7b1\u00A7r-\u00A7cindev"
+    displayName="CabicCraft"
+    #updateJSONURL=""
+    displayURL="https://github.com/CabicCraft/CabicCraft/"
+    logoFile="cabbiccraftbanner.png"
+    credits="Forge, and the Modding Community!"
+    authors="\u00A72Cubicpath"
+    description=''''''
+
+    [[dependencies.cabiccraft]]
+        modId="forge"
+        mandatory=true
+        versionRange="[33,)"
+        ordering="NONE"
+        side="BOTH"
+    [[dependencies.cabiccraft]]
+        modId="minecraft"
+        mandatory=true
+        versionRange="[1.16.2]"
+        ordering="NONE"
+        side="BOTH"
