@@ -5,11 +5,11 @@ issueTrackerURL="https://github.com/CabicCraft/CabicCraft/issues"
 
 [[mods]]
     modId="cabiccraft"
-    version="\u00A710\u00A7r.\u00A791\u00A7r.\u00A7b1\u00A7r-\u00A7cindev"
+    version="\u00A710\u00A7r.\u00A792\u00A7r.\u00A7b0\u00A7r\u00A7c"
     displayName="CabicCraft"
     #updateJSONURL=""
     displayURL="https://github.com/CabicCraft/CabicCraft/"
-    logoFile="cabbiccraftbanner.png"
+    logoFile="cabiccraftbanner.png"
     credits="Forge, and the Modding Community!"
     authors="\u00A72Cubicpath"
     description=''''''

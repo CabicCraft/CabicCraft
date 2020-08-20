@@ -1,0 +1,18 @@
+{
+  "item.cabiccraft.copper_ingot": "Copper Ingot",
+  "item.cabiccraft.copper_nugget": "Copper Nugget",
+  "item.cabiccraft.copper_sword": "Copper Sword",
+  "item.cabiccraft.copper_shovel": "Copper Shovel",
+  "item.cabiccraft.copper_pickaxe": "Copper Pickaxe",
+  "item.cabiccraft.copper_axe": "Copper Axe",
+  "item.cabiccraft.copper_hoe": "Copper Hoe",
+  "item.cabiccraft.copper_helmet": "Copper Helmet",
+  "item.cabiccraft.copper_chestplate": "Copper Chestplate",
+  "item.cabiccraft.copper_leggings": "Copper Leggings",
+  "item.cabiccraft.copper_boots": "Copper Boots",
+
+  "block.cabiccraft.copper_block": "Copper Block",
+  "block.cabiccraft.copper_ore": "Copper Ore",
+
+  "itemGroup.cabiccraft": "CabicCraft"
+}

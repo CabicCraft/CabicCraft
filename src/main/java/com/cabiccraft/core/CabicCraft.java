@@ -1,6 +1,10 @@
 package com.cabiccraft.core;
 
+import com.cabiccraft.core.init.BlockInit;
+import com.cabiccraft.core.init.ItemInit;
+
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -10,7 +14,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-
 @Mod("cabiccraft")
 @Mod.EventBusSubscriber(modid = CabicCraft.MOD_ID, bus=Mod.EventBusSubscriber.Bus.MOD)
 public class CabicCraft
@@ -19,8 +22,12 @@ public class CabicCraft
     public static final String MOD_ID = "cabiccraft";
 
     public CabicCraft() {
+        final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
+        //Register Stuff
+        BlockInit.BLOCKS.register(modEventBus);
+        ItemInit.ITEMS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }

@@ -13,8 +13,8 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '0.1.0'
-group = 'com.cubicpath.cabiccraft' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+version = '0.2.0'
+group = 'com.cabiccraft.core' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'CabicCraft'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
@@ -29,7 +29,7 @@ minecraft {
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
             mods {
-                cabbiccraft {
+                cabiccraft {
                     source sourceSets.main
                 }
             }
@@ -40,7 +40,7 @@ minecraft {
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
             mods {
-                cabbiccraft {
+                cabiccraft {
                     source sourceSets.main
                 }
             }
@@ -50,9 +50,9 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
-            args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/')
+            args '--mod', 'cabiccraft', '--all', '--output', file('src/generated/resources/')
             mods {
-                cabbiccraft {
+                cabiccraft {
                     source sourceSets.main
                 }
             }
@@ -61,7 +61,7 @@ minecraft {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.2-33.0.5'
+    minecraft 'net.minecraftforge:forge:1.16.2-33.0.7'
 }
 
 jar {
