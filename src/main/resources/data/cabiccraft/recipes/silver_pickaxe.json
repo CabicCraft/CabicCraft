@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "===",
+    " / ",
+    " X "
+  ],
+  "key": {
+    "=": {
+      "tag": "forge:ingots/silver"
+    },
+    "/": {
+      "tag": "forge:rods/silver"
+    },
+    "X": {
+      "item": "cabiccraft:silver_rod_binded"
+    }
+  },
+  "result": {
+    "item": "cabiccraft:silver_pickaxe"
+  }
+}

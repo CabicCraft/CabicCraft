@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "???",
+    "???",
+    "???"
+  ],
+  "key": {
+    "?": {
+      "item": "cabiccraft:placeholder"
+    }
+  },
+  "result": {
+    "item": "cabiccraft:placeholder",
+    "count": 1
+  }
+}

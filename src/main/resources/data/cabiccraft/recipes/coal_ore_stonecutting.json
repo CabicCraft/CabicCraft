@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "tag": "forge:ores/coal"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "result": "cabiccraft:coal_nugget",
+  "count": 6
+}

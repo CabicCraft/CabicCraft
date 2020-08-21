@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cabiccraft:silver_ingot"
+    },
+    {
+      "item": "cabiccraft:silver_ingot"
+    },
+    {
+      "item": "cabiccraft:silver_ingot"
+    },
+    {
+      "item": "cabiccraft:silver_ingot"
+    },
+    {
+      "item": "cabiccraft:silver_ingot"
+    },
+    {
+      "item": "cabiccraft:silver_ingot"
+    },
+    {
+      "item": "cabiccraft:silver_ingot"
+    },
+    {
+      "item": "cabiccraft:silver_ingot"
+    },
+    {
+      "item": "cabiccraft:silver_ingot"
+    }
+  ],
+  "result": {
+    "item": "cabiccraft:silver_block"
+  }
+}

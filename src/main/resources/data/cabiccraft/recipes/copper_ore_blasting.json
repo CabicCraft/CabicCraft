@@ -4,6 +4,6 @@
     "item": "cabiccraft:copper_ore"
   },
   "result": "cabiccraft:copper_ingot",
-  "experience": 3,
+  "experience": 0.7,
   "cookingtime": 100
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "cabiccraft:placeholder"
+  },
+  "ingredients": [
+    {
+      "item": "cabiccraft:placeholder"
+    }
+  ],
+  "result": "cabiccraft:placeholder",
+  "count": 1
+}

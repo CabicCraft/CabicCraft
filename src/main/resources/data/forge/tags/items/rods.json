@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:rods/silver",
+    "#forge:rods/copper"
+  ]
+}

@@ -14,11 +14,14 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 import java.util.function.Supplier;
 
-public enum ModArmorMaterial implements IArmorMaterial
-{
-    COPPER(CabicCraft.MOD_ID + ":copper", 12, new int[] {1, 3, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0f,
-            () -> { return Ingredient.fromItems(ItemInit.COPPER_INGOT.get());
-});
+public enum ModArmorMaterial implements IArmorMaterial {
+    COPPER(CabicCraft.MOD_ID + ":copper", 12, new int[] {1, 3, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0f, () -> {
+        return Ingredient.fromItems(ItemInit.COPPER_INGOT.get());
+    }),
+    SILVER(CabicCraft.MOD_ID + ":silver", 12, new int[] {2, 5, 7, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1f, () -> {
+        return Ingredient.fromItems(ItemInit.SILVER_INGOT.get());
+    });
+
     private static final int[] MAX_DAMAGE_ARRAY = new int[] {13, 15, 16, 11};
     private final String name;
     private final int maxDamageFactor;

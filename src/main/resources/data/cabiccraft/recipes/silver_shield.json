@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "=S=",
+    "===",
+    " R "
+  ],
+  "key": {
+    "=": {
+      "tag": "forge:ingots/silver"
+    },
+    "R": {
+      "item": "cabiccraft:redstone_leather"
+    },
+    "S": {
+      "item": "minecraft:shield"
+    }
+  },
+  "result": {
+    "item": "cabiccraft:silver_shield",
+    "count": 1
+  }
+}

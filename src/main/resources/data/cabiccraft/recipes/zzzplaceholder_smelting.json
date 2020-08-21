@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "modid:placeholder"
+  },
+  "result": "modid:placeholder",
+  "experience": 0,
+  "cookingtime": 200,
+  "count": 1
+}

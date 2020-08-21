@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "pattern": [
+    "L/L"
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:rods/silver"
+    },
+    {
+      "item": "cabiccraft:redstone_leather"
+    },
+    {
+      "item": "cabiccraft:redstone_leather"
+    }
+  ],
+  "result": {
+    "item": "cabiccraft:silver_rod_binded"
+  }
+}

@@ -7,10 +7,19 @@ import net.minecraft.util.LazyValue;
 
 import java.util.function.Supplier;
 
-public enum ModItemTier implements IItemTier
-{
-    COPPER(1, 190, 5.0F, 1.5F, 10,
-            () -> { return Ingredient.fromItems(ItemInit.COPPER_INGOT.get()); });
+public enum ModItemTier implements IItemTier {
+    COPPER(1, 190, 5.0f, 1.5f, 10, () -> {
+        return Ingredient.fromItems(ItemInit.COPPER_INGOT.get());
+    }),
+    COPPERHOE(1, 190, 5.0f, 1f, 10, () -> {
+        return Ingredient.fromItems(ItemInit.COPPER_INGOT.get());
+    }),
+    SILVER(2, 570, 7.0f, 2.5f, 18, () -> {
+        return Ingredient.fromItems(ItemInit.SILVER_INGOT.get());
+    }),
+    SILVERHOE(2, 570, 7.0f, 1f, 18, () -> {
+        return Ingredient.fromItems(ItemInit.SILVER_INGOT.get());
+    });
 
     private final int harvestLevel;
     private final int maxUses;
@@ -19,8 +28,7 @@ public enum ModItemTier implements IItemTier
     private final int enchantability;
     private final LazyValue<Ingredient> repairMaterial;
 
-    ModItemTier(int harvestLevel, int maxUses, float efficiency, float attackDamage, int enchantability, Supplier<Ingredient> repairMaterial)
-    {
+    ModItemTier(int harvestLevel, int maxUses, float efficiency, float attackDamage, int enchantability, Supplier<Ingredient> repairMaterial) {
         this.harvestLevel = harvestLevel;
         this.maxUses = maxUses;
         this.efficiency = efficiency;
@@ -52,5 +60,4 @@ public enum ModItemTier implements IItemTier
     public Ingredient getRepairMaterial() {
         return this.repairMaterial.getValue();
     }
-
 }

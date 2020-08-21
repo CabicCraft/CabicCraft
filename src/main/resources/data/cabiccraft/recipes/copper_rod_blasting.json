@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "cabiccraft:copper_rod"
+  },
+  "result": "cabiccraft:copper_nugget",
+  "experience": 0,
+  "cookingtime": 100
+}

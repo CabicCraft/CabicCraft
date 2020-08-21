@@ -1,6 +1,12 @@
 {
+  "block.cabiccraft.copper_block": "Copper Block",
+  "block.cabiccraft.copper_ore": "Copper Ore",
+  "block.cabiccraft.silver_block": "Silver Block",
+  "block.cabiccraft.silver_ore": "Silver Ore",
+
   "item.cabiccraft.copper_ingot": "Copper Ingot",
   "item.cabiccraft.copper_nugget": "Copper Nugget",
+  "item.cabiccraft.copper_rod": "Copper Rod",
   "item.cabiccraft.copper_sword": "Copper Sword",
   "item.cabiccraft.copper_shovel": "Copper Shovel",
   "item.cabiccraft.copper_pickaxe": "Copper Pickaxe",
@@ -10,9 +16,26 @@
   "item.cabiccraft.copper_chestplate": "Copper Chestplate",
   "item.cabiccraft.copper_leggings": "Copper Leggings",
   "item.cabiccraft.copper_boots": "Copper Boots",
+  "item.cabiccraft.silver_ingot": "Silver Ingot",
+  "item.cabiccraft.silver_nugget": "Silver Nugget",
+  "item.cabiccraft.silver_rod": "Silver Rod",
+  "item.cabiccraft.silver_sword": "Silver Sword",
+  "item.cabiccraft.silver_shovel": "Silver Shovel",
+  "item.cabiccraft.silver_pickaxe": "Silver Pickaxe",
+  "item.cabiccraft.silver_axe": "Silver Axe",
+  "item.cabiccraft.silver_hoe": "Silver Hoe",
+  "item.cabiccraft.silver_helmet": "Silver Helmet",
+  "item.cabiccraft.silver_chestplate": "Silver Chestplate",
+  "item.cabiccraft.silver_leggings": "Silver Leggings",
+  "item.cabiccraft.silver_boots": "Silver Boots",
+  "item.cabiccraft.silver_shield": "Silver Shield",
+  "item.cabiccraft.redstone_leather": "Redstone Leather",
+  "item.cabiccraft.coal_nugget": "Coal Nugget",
+  "item.cabiccraft.silver_rod_binded": "Binded Silver Rod",
+  "item.cabiccraft.placeholder": "cabiccraft:placeholder",
 
-  "block.cabiccraft.copper_block": "Copper Block",
-  "block.cabiccraft.copper_ore": "Copper Ore",
 
-  "itemGroup.cabiccraft": "CabicCraft"
+  "itemGroup.cabiccraft": "CabicCraft",
+  "itemGroup.cabiccraft_equipment": "CabicCraft Equipment",
+  "itemGroup.cabiccraft_blocks": "CabicCraft Blocks"
 }

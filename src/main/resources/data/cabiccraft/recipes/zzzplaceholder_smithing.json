@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "cabiccraft:placeholder"
+  },
+  "addition": {
+    "item": "cabiccraft:placeholder"
+  },
+  "result": "cabiccraft:placeholder"
+}

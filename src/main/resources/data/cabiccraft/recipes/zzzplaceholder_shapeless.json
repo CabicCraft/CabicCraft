@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cabiccraft:placeholder"
+    }
+    ],
+  "result": {
+    "item": "cabiccraft:placeholder",
+    "count": 1
+  }
+}

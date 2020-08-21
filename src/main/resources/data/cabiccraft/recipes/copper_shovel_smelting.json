@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "cabiccraft:copper_shovel"
+  },
+  "result": "cabiccraft:copper_nugget",
+  "experience": 0,
+  "cookingtime": 200,
+  "count": 1
+}
