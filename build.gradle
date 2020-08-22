@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '0.3.0'
+version = '0.3.1'
 group = 'com.cabiccraft.core' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'CabicCraft'
 
@@ -61,7 +61,7 @@ minecraft {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.2-33.0.19'
+    minecraft 'net.minecraftforge:forge:1.16.2-33.0.20'
 }
 
 jar {

@@ -18,26 +18,27 @@ import org.apache.logging.log4j.Logger;
 @Mod.EventBusSubscriber(modid = CabicCraft.MOD_ID, bus=Mod.EventBusSubscriber.Bus.MOD)
 public class CabicCraft
 {
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "cabiccraft";
 
     public CabicCraft() {
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
-        //Register Stuff
-        BlockInit.BLOCKS.register(modEventBus);
-        ItemInit.ITEMS.register(modEventBus);
+        //FMLJavaModLoadingContext.get().getModEventBus().addListener(this::onServerStarting);
+        //Register Stuff//
+        BlockInit.BLOCKS.register(modEventBus); CabicCraft.LOGGER.info("Blocks Registered");
+        ItemInit.ITEMS.register(modEventBus); CabicCraft.LOGGER.info("Items Registered");
 
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-
+        CabicCraft.LOGGER.info("FMLCommonSetupEvent complete!");
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
-
+        CabicCraft.LOGGER.info("FMLClientSetupEvent complete!");
     }
 
     @SubscribeEvent

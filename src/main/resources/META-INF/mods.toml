@@ -1,11 +1,11 @@
 modLoader="javafml"
 loaderVersion="[33,)"
-license="\u00A74\u00A7lMIT\u00A76 Licence\u00A7r https://pastebin.com/vd2z5B20"
+license="\u00A77\u00A7lThe \u00A74\u00A7lMIT \u00A77\u00A7lLicence\u00A7r (MIT)"
 issueTrackerURL="https://github.com/CabicCraft/CabicCraft/issues"
 
 [[mods]]
     modId="cabiccraft"
-    version="\u00A710\u00A7r.\u00A793\u00A7r.\u00A7b0\u00A7r\u00A7c"
+    version="\u00A710\u00A7r.\u00A793\u00A7r.\u00A7b1\u00A7r\u00A7c"
     displayName="CabicCraft"
     #updateJSONURL=""
     displayURL="https://github.com/CabicCraft/CabicCraft/"
