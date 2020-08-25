@@ -22,5 +22,161 @@ a:active {
 
 p {
 	font-size:100%;
-	color:black;
+	color:grey;
 }
+
+.body-background {
+	background-image:url(../resources/images/mossy_cobblestone_background.png);
+}
+
+.debug {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-color:tomato;
+}
+
+.debug-alt {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-color:aqua;
+}
+
+#header {
+	background-image:url(../resources/images/cobblestone_background.png);
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-color:black;
+}
+
+.header-inner {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.header-title {
+	text-align:center;
+	background-color:grey;
+	color:grey;
+	margin-left: 8%;
+	margin-right: 8%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-color:black;
+
+}
+
+.nav-bar {
+	color:white;
+	text-align:center;
+	font-size:150%;
+	background-image:url(../resources/images/cobblestone_dark_background.png);
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-left-width: 4px;
+	border-left-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-right-width: 4px;
+	border-right-style: solid;
+	border-color:black;
+}
+
+.header-spacing {
+	padding-bottom: 50px;
+}
+
+
+#main {
+	background-image:url(../resources/images/stone_bricks_background.png);
+	padding-bottom: 20px;
+	padding-top: 10px;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-color:black;
+}
+
+.main-inner {
+	text-align:center;
+	font-size: 150%;
+	padding-bottom: 400px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.main-header {
+	color:lightgrey;
+	line-height: 0;
+	background-image:url(../resources/images/mossy_stone_bricks_dark_background.png);
+	margin-left: 25%;
+	margin-right: 25%;
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-left-width: 4px;
+	border-left-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-right-width: 4px;
+	border-right-style: solid;
+	border-color:black;
+}
+
+.main-details {
+	color:lightgrey;
+	background-color:#1f2d31;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-left-width: 4px;
+	border-left-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-right-width: 4px;
+	border-right-style: solid;
+	border-color:slategrey;
+}
+
+#footer {
+	color:white;
+	background-image:url(../resources/images/bedrock_background.png);
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-left-width: 4px;
+	border-left-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-right-width: 4px;
+	border-right-style: solid;
+	border-color:black;
+}
+
+.footer-inner {
+	text-align:center;
+}
+
+
+
