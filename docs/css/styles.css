@@ -26,7 +26,7 @@ p {
 }
 
 .body-background {
-	background-image:url(../resources/images/mossy_cobblestone_background.png);
+	background-image:url(https://cabiccraft.github.io/CabicCraft/resources/images/mossy_cobblestone_background.png);
 }
 
 .debug {
@@ -54,7 +54,7 @@ p {
 }
 
 #header {
-	background-image:url(../resources/images/cobblestone_background.png);
+	background-image:url(https://cabiccraft.github.io/CabicCraft/resources/images/cobblestone_background.png);
 	border-top-width: 2px;
 	border-top-style: solid;
 	border-left-width: 2px;
@@ -89,7 +89,7 @@ p {
 	color:white;
 	text-align:center;
 	font-size:150%;
-	background-image:url(../resources/images/cobblestone_dark_background.png);
+	background-image:url(https://cabiccraft.github.io/CabicCraft/resources/images/cobblestone_dark_background.png);
 	border-top-width: 4px;
 	border-top-style: solid;
 	border-left-width: 4px;
@@ -107,7 +107,7 @@ p {
 
 
 #main {
-	background-image:url(../resources/images/stone_bricks_background.png);
+	background-image:url(https://cabiccraft.github.io/CabicCraft/resources/images/stone_bricks_background.png);
 	padding-bottom: 20px;
 	padding-top: 10px;
 	border-left-width: 2px;
@@ -128,7 +128,7 @@ p {
 .main-header {
 	color:lightgrey;
 	line-height: 0;
-	background-image:url(../resources/images/mossy_stone_bricks_dark_background.png);
+	background-image:url(https://cabiccraft.github.io/CabicCraft/resources/images/mossy_stone_bricks_dark_background.png);
 	margin-left: 25%;
 	margin-right: 25%;
 	border-top-width: 4px;
@@ -162,7 +162,7 @@ p {
 
 #footer {
 	color:white;
-	background-image:url(../resources/images/bedrock_background.png);
+	background-image:url(https://cabiccraft.github.io/CabicCraft/resources/images/bedrock_background.png);
 	border-top-width: 4px;
 	border-top-style: solid;
 	border-left-width: 4px;
