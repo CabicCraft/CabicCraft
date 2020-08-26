@@ -55,7 +55,7 @@ public class ItemInit {
             () -> new PickaxeItem(ModItemTier.COPPER, 1, -2.8f, (
                     new Item.Properties().group(EquipmentItemGroup.instance))));
     public static final RegistryObject<Item> COPPER_AXE = ITEMS.register("copper_axe",
-            () -> new AxeItem(ModItemTier.COPPER, 6.5f, -3.2f, (
+            () -> new AxeItem(ModItemTier.COPPER, 6.5f, -3.15f, (
                     new Item.Properties().group(EquipmentItemGroup.instance))));
     public static final RegistryObject<Item> COPPER_HOE = ITEMS.register("copper_hoe",
             () -> new HoeItem(ModItemTier.COPPERHOE, -1, -1.5f, (
@@ -85,7 +85,7 @@ public class ItemInit {
             () -> new PickaxeItem(ModItemTier.SILVER, 1, -2.8f, (
                     new Item.Properties().rarity(Rarity.UNCOMMON).group(EquipmentItemGroup.instance))));
     public static final RegistryObject<Item> SILVER_AXE = ITEMS.register("silver_axe",
-            () -> new AxeItem(ModItemTier.SILVER, 5.5f, -3.2f, (
+            () -> new AxeItem(ModItemTier.SILVER, 5.5f, -3.05f, (
                     new Item.Properties().rarity(Rarity.UNCOMMON).group(EquipmentItemGroup.instance))));
     public static final RegistryObject<Item> SILVER_HOE = ITEMS.register("silver_hoe",
             () -> new HoeItem(ModItemTier.SILVERHOE, -1, -0.5f, (
@@ -105,7 +105,7 @@ public class ItemInit {
                     new Item.Properties().rarity(Rarity.UNCOMMON).group(EquipmentItemGroup.instance))));
     //OTHER//
     public static final RegistryObject<Item> SILVER_SHIELD = ITEMS.register("silver_shield",
-            () -> new SilverShieldItem(new Item.Properties().rarity(Rarity.UNCOMMON).maxStackSize(1).group(EquipmentItemGroup.instance)));
+            () -> new SilverShieldItem(new Item.Properties().rarity(Rarity.UNCOMMON).maxStackSize(1).maxDamage(840).group(EquipmentItemGroup.instance)));
     /*** Register BlockItems ***/
     /*** Register BlockItems ***/
     public static final RegistryObject<Item> COPPER_BLOCK = ITEMS.register("copper_block",
