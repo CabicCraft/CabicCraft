@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {"item": "cabiccraft:copper_rod"},
+
+    {"item": "cabiccraft:copper_sword"},
+    {"item": "cabiccraft:copper_shovel"},
+    {"item": "cabiccraft:copper_pickaxe"},
+    {"item": "cabiccraft:copper_axe"},
+    {"item": "cabiccraft:copper_hoe"},
+
+    {"item": "cabiccraft:copper_helmet"},
+    {"item": "cabiccraft:copper_chestplate"},
+    {"item": "cabiccraft:copper_leggings"},
+    {"item": "cabiccraft:copper_boots"}
+  ],
+"result": "cabiccraft:copper_nugget",
+  "experience": 0.1,
+  "cookingtime": 200,
+  "count": 1
+}

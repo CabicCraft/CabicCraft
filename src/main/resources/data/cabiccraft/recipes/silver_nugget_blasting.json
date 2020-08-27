@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {"item": "cabiccraft:silver_rod"},
+
+    {"item": "cabiccraft:silver_sword"},
+    {"item": "cabiccraft:silver_shovel"},
+    {"item": "cabiccraft:silver_pickaxe"},
+    {"item": "cabiccraft:silver_axe"},
+    {"item": "cabiccraft:silver_hoe"},
+
+    {"item": "cabiccraft:silver_helmet"},
+    {"item": "cabiccraft:silver_chestplate"},
+    {"item": "cabiccraft:silver_leggings"},
+    {"item": "cabiccraft:silver_boots"}
+  ],
+"result": "cabiccraft:silver_nugget",
+  "experience": 0.1,
+  "cookingtime": 100,
+  "count": 1
+}

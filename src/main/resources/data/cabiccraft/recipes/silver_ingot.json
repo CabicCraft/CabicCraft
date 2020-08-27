@@ -1,35 +1,9 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "cabiccraft:silver_nugget"
-    },
-    {
-      "item": "cabiccraft:silver_nugget"
-    },
-    {
-      "item": "cabiccraft:silver_nugget"
-    },
-    {
-      "item": "cabiccraft:silver_nugget"
-    },
-    {
-      "item": "cabiccraft:silver_nugget"
-    },
-    {
-      "item": "cabiccraft:silver_nugget"
-    },
-    {
-      "item": "cabiccraft:silver_nugget"
-    },
-    {
-      "item": "cabiccraft:silver_nugget"
-    },
-    {
-      "item": "cabiccraft:silver_nugget"
-    }
-  ],
-  "result": {
-    "item": "cabiccraft:silver_ingot"
-  }
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "cabiccraft:silver_ore"
+  },
+  "result": "cabiccraft:silver_ingot",
+  "experience": 2.5,
+  "cookingtime": 200
 }

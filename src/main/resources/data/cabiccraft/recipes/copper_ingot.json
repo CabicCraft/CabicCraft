@@ -1,35 +1,9 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "cabiccraft:copper_nugget"
-    },
-    {
-      "item": "cabiccraft:copper_nugget"
-    },
-    {
-      "item": "cabiccraft:copper_nugget"
-    },
-    {
-      "item": "cabiccraft:copper_nugget"
-    },
-    {
-      "item": "cabiccraft:copper_nugget"
-    },
-    {
-      "item": "cabiccraft:copper_nugget"
-    },
-    {
-      "item": "cabiccraft:copper_nugget"
-    },
-    {
-      "item": "cabiccraft:copper_nugget"
-    },
-    {
-      "item": "cabiccraft:copper_nugget"
-    }
-  ],
-  "result": {
-    "item": "cabiccraft:copper_ingot"
-  }
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "cabiccraft:copper_ore"
+  },
+  "result": "cabiccraft:copper_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
 }

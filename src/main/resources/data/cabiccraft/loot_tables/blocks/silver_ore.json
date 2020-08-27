@@ -9,7 +9,7 @@
           "name": "cabiccraft:silver_ore",
           "count": 1
         }
-      ]
+      ],
       "conditions": [
         {
           "condition": "minecraft:survives_explosion"

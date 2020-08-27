@@ -3,7 +3,6 @@ package com.cabiccraft.core.init;
 import com.cabiccraft.core.CabicCraft;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.OreBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
@@ -19,15 +18,15 @@ public class BlockInit {
     /*** Copper Blocks ***/
     public static final RegistryObject<Block> COPPER_BLOCK = BLOCKS.register("copper_block",
             () -> (new Block(Block.Properties.create(Material.IRON, MaterialColor.ORANGE_TERRACOTTA).sound(SoundType.METAL)
-                    .hardnessAndResistance(4f, 6f).harvestTool(ToolType.PICKAXE).harvestLevel(0))));
+                    .hardnessAndResistance(4f, 6f).harvestTool(ToolType.PICKAXE).harvestLevel(0).func_235861_h_())));
     public static final RegistryObject<Block> COPPER_ORE = BLOCKS.register("copper_ore",
-            () -> (new OreBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE)
-                    .hardnessAndResistance(3f, 3f).harvestTool(ToolType.PICKAXE).harvestLevel(0))));
+            () -> (new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE)
+                    .hardnessAndResistance(3f, 3f).harvestTool(ToolType.PICKAXE).harvestLevel(0).func_235861_h_())));
     /*** Silver Blocks ***/
     public static final RegistryObject<Block> SILVER_BLOCK = BLOCKS.register("silver_block",
             () -> (new Block(Block.Properties.create(Material.IRON, MaterialColor.ORANGE_TERRACOTTA).sound(SoundType.METAL)
-                    .hardnessAndResistance(4f, 6f).harvestTool(ToolType.PICKAXE).harvestLevel(2))));
+                    .hardnessAndResistance(4f, 6f).harvestTool(ToolType.PICKAXE).harvestLevel(2).func_235861_h_())));
     public static final RegistryObject<Block> SILVER_ORE = BLOCKS.register("silver_ore",
-            () -> (new OreBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE)
-                    .hardnessAndResistance(3f, 3f).harvestTool(ToolType.PICKAXE).harvestLevel(2))));
+            () -> (new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE)
+                    .hardnessAndResistance(3f, 3f).harvestTool(ToolType.PICKAXE).harvestLevel(2).func_235861_h_())));
 }
