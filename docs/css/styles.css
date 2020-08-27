@@ -20,11 +20,6 @@ a:active {
   text-decoration: underline;
 }
 
-p {
-	font-size:100%;
-	color:grey;
-}
-
 .body-background {
 	background-image:url(https://cabiccraft.github.io/CabicCraft/resources/images/mossy_cobblestone_background.png);
 }
