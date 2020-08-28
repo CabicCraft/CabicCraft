@@ -1,0 +1,7 @@
+Cabiccraft 1.16.2 Version 0.3.2
+-----------------------------------
+forge 33.0.21
+
+* Changed homepage from the github page to the custom site
+* Balanced custom axe attack speeds
++ Added shield durability

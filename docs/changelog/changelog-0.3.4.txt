@@ -1,0 +1,8 @@
+Cabiccraft 1.16.2 Version 0.3.4
+-----------------------------------
+forge 33.0.22
+
++ Ores now require a pickaxe (of appropriate level (Wood for Copper) (Iron for Silver)) to acquire their drops
++ Condensed nugget result recipes
+* Renamed multiple recipes
++ Fixed Silver Ore loot table

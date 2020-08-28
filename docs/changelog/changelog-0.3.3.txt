@@ -1,0 +1,10 @@
+Cabiccraft 1.16.2 Version 0.3.3
+-----------------------------------
+forge 33.0.21
+
++ Added copper ore vein feature; Coppper spawns up to y 100
++ Added silver ore vein feature; Silver spawns up to y 26
++ Implemented silver & copper ore veins into the default biomes
+* Made iron ore vein feature have a rarity count of 15 instead of 20 (lower is rarer)
+
++ Added Original Biomes and Original Features archives into the mod datapack

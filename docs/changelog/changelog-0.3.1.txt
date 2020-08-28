@@ -1,0 +1,7 @@
+Cabiccraft 1.16.2 Version 0.3.1
+-----------------------------------
+forge 33.0.20
+
++ Fixed the mod logger
++ Fixed silver hoe recipe
+* Changed custom axe and hoe recipes to face the default direction. (left)

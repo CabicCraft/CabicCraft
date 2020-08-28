@@ -1,0 +1,20 @@
+Cabiccraft 1.16.2 Version 0.2.0
+-----------------------------------
+forge 33.0.7
+
++ Added BLOCKS deferred register
++ Added copper and copper ore blocks and blockitems
+
++ Added ITEMS deferred register
++ Added Copper (ingot,nugget,sword,shovel,pickaxe,axe,hoe,helmet,chestplate,leggings,boots) items
+
++ Added MainItemGroup Itemgroup (called CabicCraft)
+
++ Added Copper armour material
++ Added Copper item tier
+
++ Added en_us translation for registered objects
++ Added models and textures for objects
++ Added loot_tables for blocks
++ Added copper related recipes
++ Added copper objects to the appropriate forge tags

@@ -1,0 +1,30 @@
+Cabiccraft 1.16.2 Version 0.3.0
+-----------------------------------
+forge 33.0.19
+
++ Added silver and silver blocks and blockitems
+
++ Added Silver (ingot,nugget,rod,binded rod,sword,shovel,pickaxe,axe,hoe,helmet,chestplate,leggings,boots,shield) items
++ Added (placeholder, copper rod, redstone leather, and coal nugget) items
+
++ Added Coal Nugget Object (works like a firecharge)
++ Added Silver Shield Object
+
++ Added EquipmentItemGroup Itemgroup (called CabicCraft Equipment)
++ Added BlockItemGroup Itemgroup (called CabicCraft Blocks)
+* Regrouped existing appropriate items and blockitems
+
++ Added Silver armour material
++ Added Copperhoe item tier
++ Added Silver item tier
++ Added Silverhoe item tier
+
++ Added en_us translation for registered objects
++ Added models and textures for objects
++ Added loot_tables for blocks
++ Added silver related recipes
++ Added redstone leather recipe
++ Added stonecutting recipes for ores
++ Added smelting and blasting recipes for silver and copper items
++ Added placeholder recipes
++ Added silver objects and coal nugget to the appropriate tags
