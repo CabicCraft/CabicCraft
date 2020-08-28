@@ -5,9 +5,9 @@ issueTrackerURL="https://github.com/CabicCraft/CabicCraft/issues"
 
 [[mods]]
     modId="cabiccraft"
-    version="\u00A710\u00A7r.\u00A793\u00A7r.\u00A7b4\u00A7r\u00A7c"
+    version="\u00A710\u00A7r.\u00A793\u00A7r.\u00A7b5\u00A7r-\u00A7cindev"
     displayName="CabicCraft"
-    #updateJSONURL=""
+    updateJSONURL="https://gist.githubusercontent.com/Cubicpath/716574ec5cca3caefc3ee9dbc599648f/raw/"
     displayURL="https://cabiccraft.github.io/CabicCraft/"
     logoFile="cabiccraftbanner.png"
     credits="Forge, and the Modding Community!"
